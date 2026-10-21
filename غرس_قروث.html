@@ -1,0 +1,575 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>غرس قروث</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="غرس قروث (Gharas Growth): وكالة شريكة في النمو متخصصة في عيادات زراعة الشعر فقط. ندير إعلاناتك، ونجلب لك عملاء محتملين، ونحوّلهم إلى حجوزات فعلية.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;800;900&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap">
+<style>
+/* Layout concept: one-page company intro for a single-niche agency (hair transplant clinics).
+   Dark-first sunrise palette (pink to orange) on aubergine ink. Hero pairs a full-screen TikTok ad phone
+   with a full-screen ROAS dashboard phone; then the customer journey, the niche statement, detailed services. */
+:root{
+  --bg:#0F0A1A; --bg2:#150F24; --surface:#1D1430; --surface2:#2A1E42; --line:#3A2D57;
+  --fg:#F6F1FF; --muted:#B8ADD0; --accent-text:#FF7BAE;
+  --g1:#FF4F93; --g2:#FF9340; --on-accent:#1A0D1F; --phone:#0A0612; --head-bg:#0F0A1A;
+  --gt1:#FF4F93; --gt2:#FF9340;
+  --photo:#5B4880; --skin:#C8946B; --hair:#2A1810; --shirt:#7A6AA8;
+  --font-display:"Cairo","Segoe UI",Tahoma,sans-serif;
+  --font-body:"IBM Plex Sans Arabic","Segoe UI",Tahoma,sans-serif;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme:light){
+  :root:not([data-theme="dark"]){
+    --bg:#FBF7FF; --bg2:#F3ECFC; --surface:#FFFFFF; --surface2:#EFE6FB; --line:#DDD0F2;
+    --fg:#1A1030; --muted:#5B5075; --accent-text:#C21F66; --phone:#1A1030; --head-bg:#FBF7FF;
+    --gt1:#D41F6B; --gt2:#E0560F; --photo:#E3D6F7; --shirt:#9C8CC9; color-scheme:light;
+  }
+}
+:root[data-theme="light"]{
+  --bg:#FBF7FF; --bg2:#F3ECFC; --surface:#FFFFFF; --surface2:#EFE6FB; --line:#DDD0F2;
+  --fg:#1A1030; --muted:#5B5075; --accent-text:#C21F66; --phone:#1A1030; --head-bg:#FBF7FF;
+  --gt1:#D41F6B; --gt2:#E0560F; --photo:#E3D6F7; --shirt:#9C8CC9; color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:1rem;line-height:1.8;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--head-bg);z-index:60}
+img,svg{max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:var(--font-display);margin:0;line-height:1.3;text-wrap:balance}
+p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--g2);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;top:-60px;right:16px;background:var(--g2);color:var(--on-accent);padding:8px 14px;border-radius:8px;z-index:100}
+.skip:focus{top:8px}
+.wrap{width:100%;max-width:1120px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+section{padding-block:clamp(56px,8vw,96px)}
+.band{background:var(--bg2)}
+.grad-text{background:linear-gradient(100deg,var(--gt1),var(--gt2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.ico{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:.92rem;color:var(--accent-text);margin-bottom:16px}
+.eyebrow::before{content:"";width:28px;height:3px;border-radius:3px;background:linear-gradient(100deg,var(--g1),var(--g2))}
+h2{font-weight:900;font-size:clamp(1.8rem,4vw,2.8rem)}
+.head{max-width:44rem;margin-bottom:clamp(26px,4vw,44px)}
+.head p{margin-top:14px;color:var(--muted);font-size:1.08rem}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 28px;border-radius:999px;border:1.5px solid transparent;font-family:var(--font-display);font-weight:800;font-size:1rem;text-decoration:none;cursor:pointer;transition:transform .18s,box-shadow .18s,background .18s}
+.btn-primary{background:linear-gradient(100deg,var(--g1),var(--g2));color:var(--on-accent);box-shadow:0 10px 30px -10px rgba(255,79,147,.55)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 34px -10px rgba(255,79,147,.65)}
+.btn-ghost{background:transparent;border-color:var(--line);color:var(--fg)}
+.btn-ghost:hover{border-color:var(--g1);background:var(--surface)}
+.btn-sm{min-height:42px;padding:0 20px;font-size:.95rem}
+
+/* header */
+.site-header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--head-bg);background:color-mix(in srgb,var(--head-bg) 90%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:20px;min-height:68px;position:relative}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.logo-img{width:48px;height:48px;border-radius:12px;display:block;flex:none;object-fit:cover}
+.logo-txt{display:flex;flex-direction:column;line-height:1}
+.logo-ar{font-family:var(--font-display);font-weight:900;font-size:1.35rem}
+.logo-en{font-size:.62rem;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-top:5px;direction:ltr;text-align:right}
+.nav{display:flex;gap:4px;margin-inline-start:auto}
+.nav a{padding:8px 14px;border-radius:999px;text-decoration:none;font-weight:500;font-size:.95rem;color:var(--muted);transition:color .15s,background .15s}
+.nav a:hover{color:var(--fg);background:var(--surface)}
+.bar-actions{display:flex;align-items:center;gap:10px}
+.icon-btn{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:transparent;display:grid;place-items:center;cursor:pointer;color:var(--fg)}
+.icon-btn:hover{background:var(--surface)}
+.menu-btn{display:none}
+@media (max-width:860px){
+  .menu-btn{display:grid}
+  .nav{position:absolute;top:100%;right:0;left:0;margin:0;flex-direction:column;background:var(--bg);border-bottom:1px solid var(--line);padding:10px max(16px,env(safe-area-inset-left,0px)) 16px max(16px,env(safe-area-inset-right,0px));display:none}
+  .nav.open{display:flex}
+  .nav a{padding:12px 8px;border-radius:10px;font-size:1rem}
+  .bar-actions{margin-inline-start:auto}
+}
+@media (max-width:420px){.bar-actions .btn{padding:0 14px}.logo-ar{font-size:1.2rem}}
+
+/* hero */
+.hero{padding-block:clamp(36px,6vw,76px) clamp(48px,6vw,84px);position:relative;overflow:clip}
+.hero::before{content:"";position:absolute;inset:-20% auto auto -10%;width:60vw;height:60vw;max-width:760px;max-height:760px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,79,147,.20),transparent);pointer-events:none}
+.hero::after{content:"";position:absolute;inset:auto -10% -30% auto;width:50vw;height:50vw;max-width:620px;max-height:620px;border-radius:50%;background:radial-gradient(closest-side,rgba(139,92,246,.20),transparent);pointer-events:none}
+.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(24px,5vw,64px);align-items:center}
+.hero-copy{min-width:0}
+h1{font-weight:900;font-size:clamp(2.1rem,5.4vw,3.9rem);line-height:1.25;letter-spacing:-.01em}
+.hero-copy .lead{margin-top:22px;font-size:clamp(1.05rem,1.8vw,1.25rem);color:var(--muted);max-width:34em}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+
+/* hero phones: both screens fully filled */
+.stage{position:relative;height:clamp(440px,52vw,570px);min-width:0}
+.phone{position:absolute;width:clamp(176px,23vw,250px);aspect-ratio:9/18.6;border:7px solid var(--phone);border-radius:36px;background:var(--phone);overflow:hidden;box-shadow:0 30px 60px -20px rgba(0,0,0,.6);container-type:inline-size}
+.phone.a{top:0;right:6%;z-index:2;animation:float 7s ease-in-out infinite}
+.phone.b{bottom:0;left:2%;z-index:1;animation:float 8s ease-in-out -3s infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.scr{height:100%;display:flex;flex-direction:column;min-height:0;position:relative}
+.sb{display:flex;justify-content:space-between;align-items:center;padding:3.5cqw 6cqw 0;font-size:3.8cqw;font-weight:700;flex:none}
+.sb i{display:flex;gap:1cqw}
+.sb i b{display:block;width:1.8cqw;height:1.8cqw;border-radius:50%;background:currentColor}
+
+/* phone A: hair transplant ad with comments */
+.ad{background:var(--surface);color:var(--fg)}
+.ad .sb{position:absolute;inset:0 0 auto;z-index:2;color:#fff}
+.ad-media{position:relative;flex:1.15;min-height:0;background:linear-gradient(165deg,#2E1672 0%,#B3237A 58%,#FF8A3D 100%);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding:0 5cqw 4cqw;gap:3.4cqw}
+.ad-top{position:absolute;top:11cqw;right:5cqw;left:5cqw;display:flex;align-items:center;gap:2.5cqw;font-size:4.2cqw;font-weight:700}
+.ad-av{width:8cqw;height:8cqw;border-radius:50%;background:#fff;display:grid;place-items:center;flex:none}
+.ad-av svg{width:70%;height:70%;fill:none;stroke:#B3237A;stroke-linecap:round}
+.ad-top em{font-style:normal;font-size:3.2cqw;font-weight:600;padding:.3cqw 2cqw;border-radius:1cqw;background:rgba(255,255,255,.25);margin-right:auto}
+.ad-cap{font-family:var(--font-display);font-weight:900;font-size:6.8cqw;line-height:1.3;text-align:center;text-shadow:0 2px 14px rgba(0,0,0,.3);padding-top:22cqw}
+.ad-pair{display:flex;gap:3cqw;width:100%;justify-content:center}
+.ad-ph{position:relative;flex:1;max-width:40cqw;aspect-ratio:6/7;border-radius:3cqw;overflow:hidden;background:var(--photo);border:.6cqw solid rgba(255,255,255,.65)}
+.ad-ph svg{display:block;width:100%;height:100%}
+.ad-ph span{position:absolute;bottom:1.5cqw;right:1.5cqw;font-size:3.4cqw;font-weight:700;padding:0 2.2cqw;border-radius:99px;background:var(--phone);color:#fff}
+.ad-ph.af span{background:linear-gradient(100deg,var(--g1),var(--g2));color:#1A0D1F}
+.ad-cta{width:100%;display:flex;justify-content:center;align-items:center;background:#fff;color:#1A0D1F;font-family:var(--font-display);font-weight:800;font-size:4.6cqw;border-radius:2cqw;padding:2.2cqw 0}
+.ad-bar{flex:none;display:flex;justify-content:space-around;padding:2.6cqw 4cqw;font-size:3.6cqw;font-weight:600;border-bottom:1px solid var(--line)}
+.ad-bar svg{width:4.6cqw;height:4.6cqw;vertical-align:middle;margin-left:1.2cqw;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ad-cm{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:space-evenly;padding:0 4cqw}
+.cm{display:grid;grid-template-columns:auto 1fr auto;gap:2.4cqw;align-items:start;font-size:3.9cqw;line-height:1.4}
+.cm i{width:7.4cqw;height:7.4cqw;border-radius:50%;display:grid;place-items:center;font-style:normal;font-weight:800;font-size:3.6cqw;color:#1A0D1F;background:linear-gradient(135deg,var(--g1),var(--g2))}
+.cm b{display:block;font-size:3.3cqw;color:var(--muted);font-weight:600}
+.cm p{font-weight:500}
+.cm small{font-size:3.2cqw;color:var(--muted)}
+.cm.rp{margin-right:9.8cqw}
+.cm.rp i{background:var(--phone);color:#fff}
+.ad-input{flex:none;margin:1.5cqw 4cqw 3.4cqw;padding:2.4cqw 4cqw;border-radius:99px;background:var(--surface2);color:var(--muted);font-size:3.8cqw}
+.d-nav{flex:none;display:flex;justify-content:space-around;align-items:center;padding:3cqw 4cqw 3.6cqw}
+
+/* phone B: ROAS dashboard */
+.db{background:var(--surface);color:var(--fg)}
+.d-head{display:flex;align-items:center;gap:2.5cqw;padding:3cqw 5cqw 0;flex:none}
+.d-logo{width:8cqw;height:8cqw;border-radius:2.2cqw;background:linear-gradient(135deg,var(--g1),var(--g2));display:grid;place-items:center;flex:none}
+.d-logo svg{width:60%;height:60%;fill:none;stroke:#1A0D1F;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.d-head b{font-family:var(--font-display);font-size:5cqw;flex:1}
+.d-head em{font-style:normal;font-size:3.4cqw;padding:.8cqw 2.6cqw;border-radius:99px;background:var(--surface2);color:var(--muted)}
+.d-hero{margin:3.5cqw 4cqw 0;padding:4cqw 4cqw 0;border-radius:4cqw;background:var(--surface2);flex:none;overflow:hidden}
+.d-hero small{display:block;font-size:3.6cqw;color:var(--muted);line-height:1.4}
+.d-row{display:flex;align-items:baseline;gap:3cqw}
+.d-big{font-family:var(--font-display);font-weight:900;font-size:19cqw;line-height:1.1;direction:ltr}
+.d-delta{font-size:3.6cqw;font-weight:700;color:var(--accent-text)}
+.d-chart{display:block;width:100%;height:auto;margin-top:1cqw}
+.d-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.4cqw;margin:2.8cqw 4cqw 0;flex:none}
+.d-grid div{background:var(--surface2);border-radius:3.4cqw;padding:2.8cqw 3.2cqw;line-height:1.3}
+.d-grid small{display:block;font-size:3.4cqw;color:var(--muted)}
+.d-grid b{font-family:var(--font-display);font-size:6.6cqw;direction:ltr;display:block;text-align:right}
+.d-list{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:space-evenly;margin:0 4cqw;font-size:3.6cqw}
+.d-item{display:grid;grid-template-columns:1fr auto;gap:.8cqw 2cqw;align-items:center}
+.d-item b{font-weight:600}
+.d-item em{font-style:normal;font-family:var(--font-display);font-weight:800;direction:ltr}
+.d-bar{grid-column:1/-1;height:1.8cqw;border-radius:9px;background:var(--surface2);overflow:hidden}
+.d-bar i{display:block;height:100%;border-radius:9px;background:linear-gradient(100deg,var(--g1),var(--g2))}
+.d-nav{border-top:1px solid var(--line)}
+.d-nav i{display:block;width:5.4cqw;height:5.4cqw;border-radius:1.6cqw;border:.7cqw solid var(--muted)}
+.d-nav i:first-child{background:linear-gradient(135deg,var(--g1),var(--g2));border:0}
+
+.chip{position:absolute;z-index:3;display:flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:.85rem;font-weight:700;box-shadow:0 14px 30px -14px rgba(0,0,0,.5)}
+.chip i{width:10px;height:10px;border-radius:50%;background:linear-gradient(100deg,var(--g1),var(--g2))}
+.chip.c1{top:8%;left:0}.chip.c2{bottom:10%;right:0}
+.stage-note{font-size:.78rem;color:var(--muted);text-align:center;margin-top:10px}
+@media (max-width:900px){
+  .hero-grid{grid-template-columns:1fr}
+  .stage{height:470px;max-width:540px;width:100%;margin-inline:auto}
+  .phone{width:clamp(172px,38vw,220px)}
+  .phone.a{right:8%}.phone.b{left:3%}
+}
+@media (max-width:420px){.stage{height:430px}.chip{font-size:.78rem;padding:6px 10px}}
+
+/* journey strip */
+.journey{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:34px}
+.j-step{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:10px}
+.j-step:not(:last-child)::after{content:"";position:absolute;top:50%;left:-27px;width:20px;height:20px;border-left:3px solid var(--g1);border-bottom:3px solid var(--g1);transform:translateY(-50%) rotate(45deg);border-radius:2px}
+.j-step h3{font-size:1.15rem;font-weight:800}
+.j-step p{color:var(--muted);font-size:.95rem}
+.s-ico{width:46px;height:46px;flex:none;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,var(--g1),var(--g2));color:var(--on-accent)}
+.s-ico .ico{stroke-width:2}
+@media (max-width:900px){
+  .journey{grid-template-columns:1fr;gap:34px}
+  .j-step:not(:last-child)::after{top:auto;bottom:-27px;left:50%;transform:translateX(-50%) rotate(-45deg)}
+}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:start}
+.about-text p{color:var(--muted);font-size:1.1rem;margin-top:16px}
+.about-text p:first-of-type{margin-top:20px}
+.niche{display:inline-flex;align-items:center;gap:12px;margin-top:26px;padding:10px 22px 10px 18px;border-radius:999px;background:var(--surface);border:1px solid var(--g1);font-family:var(--font-display);font-weight:800}
+.niche small{font-family:var(--font-body);font-weight:500;color:var(--muted);font-size:.85rem}
+.about-points li{display:flex;gap:16px;align-items:flex-start;padding:20px 0;border-bottom:1px solid var(--line)}
+.about-points li:first-child{padding-top:0}
+.about-points li:last-child{border-bottom:0;padding-bottom:0}
+.about-points h3{font-size:1.15rem;font-weight:800;margin-bottom:2px}
+.about-points p{color:var(--muted);font-size:.96rem}
+@media (max-width:860px){.about-grid{grid-template-columns:1fr}}
+
+/* services */
+.svc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.svc{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:14px;transition:transform .2s,border-color .2s}
+.svc:hover{transform:translateY(-4px);border-color:var(--g1)}
+.svc h3{font-size:1.25rem;font-weight:800}
+.svc>p{color:var(--muted);font-size:.97rem}
+.svc ul{display:flex;flex-direction:column;gap:8px;font-size:.94rem}
+.svc li{position:relative;padding-right:24px}
+.svc li::before{content:"";position:absolute;right:0;top:.62em;width:11px;height:6px;border-right:2.5px solid var(--g1);border-bottom:2.5px solid var(--g1);transform:rotate(-45deg) scaleX(-1)}
+.svc .result{margin-top:auto;padding-top:14px;border-top:1px dashed var(--line);font-size:.92rem}
+.svc .result b{color:var(--accent-text);font-weight:600}
+@media (max-width:1000px){.svc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:660px){.svc-grid{grid-template-columns:1fr}}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:s}
+.step{position:relative;padding-top:64px;min-width:0}
+.step::before{counter-increment:s;content:counter(s);position:absolute;top:0;right:0;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font-family:var(--font-display);font-weight:900;font-size:1.2rem;background:linear-gradient(135deg,var(--g1),var(--g2));color:var(--on-accent);z-index:1}
+.step::after{content:"";position:absolute;top:22px;right:46px;left:-20px;height:2px;background:repeating-linear-gradient(to left,var(--line) 0 8px,transparent 8px 14px)}
+.step:last-child::after{display:none}
+.step h3{font-size:1.15rem;font-weight:800;margin-bottom:8px}
+.step p{color:var(--muted);font-size:.95rem}
+@media (max-width:860px){
+  .steps{grid-template-columns:1fr;gap:30px}
+  .step{padding-top:0;padding-right:66px}
+  .step::after{top:46px;bottom:-30px;right:22px;left:auto;width:2px;height:auto;background:repeating-linear-gradient(to bottom,var(--line) 0 8px,transparent 8px 14px)}
+}
+
+/* booking form (last block) */
+.lead-form-wrap{max-width:46rem;margin-inline:auto}
+.form{background:var(--surface);border:1px solid var(--line);border-radius:26px;padding:clamp(20px,3.5vw,34px);display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field{display:flex;flex-direction:column;gap:6px;min-width:0}
+.field.full{grid-column:1/-1}
+.field label,.field legend{font-weight:600;font-size:.92rem}
+.field input[type=text],.field select,.field textarea{width:100%;min-height:50px;padding:10px 16px;border-radius:14px;border:1px solid var(--line);background:var(--bg);color:var(--fg);font:inherit}
+.field textarea{min-height:100px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:3px solid var(--g2);outline-offset:1px;border-color:transparent}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+.checks{display:flex;flex-wrap:wrap;gap:8px}
+.checks label{cursor:pointer;font-weight:500}
+.checks input{position:absolute;opacity:0;width:1px;height:1px}
+.checks span{display:inline-flex;align-items:center;min-height:40px;padding:0 18px;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--muted);transition:all .15s}
+.checks input:checked+span{background:linear-gradient(100deg,var(--g1),var(--g2));color:var(--on-accent);border-color:transparent;font-weight:600}
+.checks input:focus-visible+span{outline:3px solid var(--g2);outline-offset:2px}
+.err{color:#B3123F;font-size:.85rem;min-height:1.2em}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .err{color:#FF6B8A}}
+:root[data-theme="dark"] .err{color:#FF6B8A}
+.form .btn{grid-column:1/-1}
+.result-box{grid-column:1/-1;background:var(--bg);border:1px dashed var(--g1);border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:12px}
+.result-box textarea{min-height:150px;width:100%;padding:10px 16px;border-radius:14px;border:1px solid var(--line);background:var(--surface);color:var(--fg);font:inherit}
+.result-box .row{display:flex;flex-wrap:wrap;gap:10px}
+@media (max-width:560px){.form{grid-template-columns:1fr}}
+
+footer{background:var(--bg2);border-top:1px solid var(--line);padding-block:28px calc(28px + 72px)}
+.f-row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;color:var(--muted);font-size:.9rem}
+.f-row b{direction:ltr;unicode-bidi:plaintext;color:var(--fg);font-weight:600}
+
+.wa-dock{position:fixed;bottom:0;left:0;padding:0 0 calc(16px + env(safe-area-inset-bottom,0px)) calc(16px + env(safe-area-inset-left,0px));z-index:55;pointer-events:none}
+.wa{pointer-events:auto;display:inline-flex;align-items:center;gap:10px;min-height:54px;padding:0 22px 0 18px;border-radius:999px;background:#25D366;color:#06210F;font-family:var(--font-display);font-weight:800;text-decoration:none;box-shadow:0 14px 30px -10px rgba(37,211,102,.6)}
+.wa:hover{transform:translateY(-2px)}
+.wa .ico{width:24px;height:24px;stroke-width:2}
+@media (max-width:420px){.wa span{display:none}.wa{padding:0;width:54px;justify-content:center}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF4F93"/><stop offset="1" stop-color="#FF9340"/></linearGradient>
+    <symbol id="i-tt" viewBox="0 0 24 24"><path d="M14 3v11.3a3.4 3.4 0 1 1-3.4-3.4"/><path d="M14 3c.3 2.5 2 4.2 4.6 4.4"/></symbol>
+    <symbol id="i-ads" viewBox="0 0 24 24"><path d="M4 10v4h3l7 4V6L7 10z"/><path d="M17.5 9a4 4 0 0 1 0 6"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V4M4 20h16M8 16v-4M12 16V9M16 16v-7"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1" fill="currentColor"/></symbol>
+    <symbol id="i-kpi" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-9"/><path d="M15 6h6v6"/></symbol>
+    <symbol id="i-hand" viewBox="0 0 24 24"><path d="M3 12l4-3 4 1 5-3 5 4-5 6-5 1z"/><path d="M7 9l-3 7 4 2"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-reel" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="4"/><path d="M10 9l5 3-5 3z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></symbol>
+    <symbol id="i-comment" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><path d="M4 12v7h16v-7M12 3v12M8 7l4-4 4 4"/></symbol>
+    <symbol id="i-video" viewBox="0 0 24 24"><rect x="3" y="6" width="13" height="12" rx="3"/><path d="M16 10l5-3v10l-5-3z"/></symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24"><path d="M4 20l4-1 11-11-3-3L5 16z"/><path d="M14 6l3 3"/></symbol>
+    <symbol id="head-before" viewBox="0 0 120 140"><path d="M8 140c0-27 21-42 52-42s52 15 52 42z" fill="var(--shirt)"/><rect x="50" y="84" width="20" height="24" rx="7" fill="var(--skin)"/><ellipse cx="33" cy="62" rx="4.5" ry="8" fill="var(--skin)"/><ellipse cx="87" cy="62" rx="4.5" ry="8" fill="var(--skin)"/><ellipse cx="60" cy="58" rx="27" ry="33" fill="var(--skin)"/><path d="M33 56c0-9 3-15 7-19-3 8-3 14-3 21zM87 56c0-9-3-15-7-19 3 8 3 14 3 21z" fill="var(--hair)"/><path d="M47 33c8-4 18-4 26 0-8-2-18-2-26 0z" fill="var(--hair)" opacity=".5"/><circle cx="50" cy="60" r="2" fill="#2a1810"/><circle cx="70" cy="60" r="2" fill="#2a1810"/><path d="M53 76q7 4 14 0" stroke="#2a1810" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+    <symbol id="head-after" viewBox="0 0 120 140"><path d="M8 140c0-27 21-42 52-42s52 15 52 42z" fill="var(--shirt)"/><rect x="50" y="84" width="20" height="24" rx="7" fill="var(--skin)"/><ellipse cx="33" cy="62" rx="4.5" ry="8" fill="var(--skin)"/><ellipse cx="87" cy="62" rx="4.5" ry="8" fill="var(--skin)"/><ellipse cx="60" cy="58" rx="27" ry="33" fill="var(--skin)"/><path d="M31 58c-3-24 11-34 29-34s32 10 29 34c-3-11-8-17-13-19-9 5-23 5-32 0-5 2-10 8-13 19z" fill="var(--hair)"/><circle cx="50" cy="60" r="2" fill="#2a1810"/><circle cx="70" cy="60" r="2" fill="#2a1810"/><path d="M53 76q7 4 14 0" stroke="#2a1810" stroke-width="2" fill="none" stroke-linecap="round"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M3.5 20.5l1.2-4.2A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.5-2-1-.8.7c-1-.4-1.8-1.2-2.2-2.2l.7-.8-1-2z"/></symbol>
+    <symbol id="i-contrast" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 4v16"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-sprout" viewBox="0 0 32 32"><path d="M16 28V15" stroke-width="2.6"/><path d="M16 16c0-5 3.5-8.5 9-8.5 0 5-3.5 8.5-9 8.5z" fill="currentColor" stroke="none"/><path d="M16 20c0-4-3-6.8-7.5-6.8 0 4 3 6.8 7.5 6.8z" fill="currentColor" stroke="none" opacity=".75"/></symbol>
+  </defs>
+</svg>
+
+<div dir="rtl" lang="ar" id="top">
+<a class="skip" href="#main">انتقل إلى المحتوى</a>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="#top" aria-label="غرس قروث — الرئيسية">
+      <img class="logo-img" src="data:image/webp;base64,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" width="48" height="48" alt="" aria-hidden="true">
+      <span class="logo-txt"><span class="logo-ar">غرس قروث</span><span class="logo-en">Gharas Growth</span></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="القائمة الرئيسية">
+      <a href="#top">الرئيسية</a>
+      <a href="#about">من نحن</a>
+      <a href="#services">خدماتنا</a>
+      <a href="#how">آلية العمل</a>
+      <a href="#form">احجز مكالمة</a>
+    </nav>
+    <div class="bar-actions">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="تبديل المظهر الفاتح والداكن"><svg class="ico"><use href="#i-contrast"/></svg></button>
+      <a class="btn btn-primary btn-sm" href="#form">ابدأ النمو</a>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav" aria-label="القائمة"><svg class="ico"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">شريك نمو متخصص في عيادات زراعة الشعر</p>
+      <h1 id="h1">نجلب لعيادتك <span class="grad-text">عملاء محتملين</span>، ونحوّلهم إلى حجوزات فعلية</h1>
+      <p class="lead">وكالة تركّز على تخصص واحد فقط، لنمنح عيادتك التركيز والاهتمام الذي تستحقه، ونتائج تُقاس بمردود كل عميل.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#form">احجز مكالمة زووم</a>
+        <a class="btn btn-ghost" data-wa href="#" target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg>تحدث معنا على واتساب</a>
+      </div>
+    </div>
+    <div>
+      <div class="stage" role="img" aria-label="تصميم توضيحي لهاتفين: الأول يعرض إعلان فيديو على تيك توك، والثاني يعرض لوحة نتائج حملة تيك توك بعائد إنفاق إعلاني مرتفع ومردود للعميل الواحد">
+
+        <div class="phone a"><div class="scr ad">
+          <div class="sb"><span>9:41</span><i><b></b><b></b><b></b></i></div>
+          <div class="ad-media">
+            <div class="ad-top"><span class="ad-av"><svg viewBox="0 0 32 32"><use href="#i-sprout"/></svg></span>@your.clinic<em>إعلان ممول</em></div>
+            <p class="ad-cap">رحلة زراعة الشعر من أول جلسة</p>
+            <div class="ad-pair">
+              <div class="ad-ph"><svg viewBox="0 0 120 140"><use href="#head-before"/></svg><span>قبل</span></div>
+              <div class="ad-ph af" style="--skin:#B67B54;--hair:#1E120C"><svg viewBox="0 0 120 140"><use href="#head-after"/></svg><span>بعد</span></div>
+            </div>
+            <span class="ad-cta">احجز استشارتك</span>
+          </div>
+          <div class="ad-bar">
+            <span><svg viewBox="0 0 24 24"><use href="#i-heart"/></svg>12.4K</span>
+            <span><svg viewBox="0 0 24 24"><use href="#i-comment"/></svg>386</span>
+            <span><svg viewBox="0 0 24 24"><use href="#i-share"/></svg>1.1K</span>
+          </div>
+          <div class="ad-cm">
+            <div class="cm"><i>ن</i><div><b>نورة</b><p>كيف أحجز موعد استشارة؟</p></div><small>31</small></div>
+            <div class="cm rp"><i>ع</i><div><b>العيادة</b><p>أهلًا نورة، أرسلنا لك رابط الحجز.</p></div><small>12</small></div>
+            <div class="cm"><i>خ</i><div><b>خالد</b><p>كم تكلفة العملية؟ وين موقع العيادة؟</p></div><small>18</small></div>
+            <div class="cm"><i>ر</i><div><b>ريم</b><p>ممكن التفاصيل على الخاص؟</p></div><small>9</small></div>
+          </div>
+          <div class="ad-input">أضف تعليقًا...</div>
+        </div></div>
+
+
+        <div class="phone b"><div class="scr db">
+          <div class="sb"><span>9:41</span><i><b></b><b></b><b></b></i></div>
+          <div class="d-head"><span class="d-logo"><svg viewBox="0 0 24 24"><use href="#i-tt"/></svg></span><b>حملات TikTok</b><em>آخر 30 يوم</em></div>
+          <div class="d-hero">
+            <small>العائد على الإنفاق الإعلاني (ROAS)</small>
+            <div class="d-row"><span class="d-big grad-text">×6.4</span><span class="d-delta">↑ 38%</span></div>
+            <svg class="d-chart" viewBox="0 0 100 34" aria-hidden="true">
+              <defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF4F93" stop-opacity=".45"/><stop offset="1" stop-color="#FF4F93" stop-opacity="0"/></linearGradient></defs>
+              <path d="M0 28 L12 26 L24 27 L38 19 L52 21 L66 11 L80 8 L100 2 L100 34 L0 34Z" fill="url(#area)"/>
+              <path d="M0 28 L12 26 L24 27 L38 19 L52 21 L66 11 L80 8 L100 2" fill="none" stroke="url(#gg)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="100" cy="2" r="2.6" fill="#FF9340"/>
+            </svg>
+          </div>
+          <div class="d-grid">
+            <div><small>ROI</small><b>+540%</b></div>
+            <div><small>مردود العميل الواحد</small><b>×4.2</b></div>
+            <div><small>تكلفة الحجز</small><b>−38%</b></div>
+            <div><small>حجوزات الاستشارة</small><b>+126%</b></div>
+          </div>
+          <div class="d-list">
+            <div class="d-item"><b>حملة الاستشارة</b><em>×7.1</em><span class="d-bar"><i style="width:92%"></i></span></div>
+            <div class="d-item"><b>حملة الفيديو القصير</b><em>×5.8</em><span class="d-bar"><i style="width:75%"></i></span></div>
+            <div class="d-item"><b>إعادة الاستهداف</b><em>×4.9</em><span class="d-bar"><i style="width:62%"></i></span></div>
+          </div>
+          <div class="d-nav"><i></i><i></i><i></i><i></i></div>
+        </div></div>
+
+        <div class="chip c1"><i></i>ROAS ×6.4 ↑</div>
+        <div class="chip c2"><i></i>مردود العميل الواحد ↑</div>
+      </div>
+      <p class="stage-note">تصميم توضيحي لأرقام افتراضية</p>
+    </div>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="j-h">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">رحلة العميل معنا</p>
+      <h2 id="j-h">من الإعلان إلى باب العيادة</h2>
+      <p>نصمم كل مرحلة من رحلة عميلك، من أول ظهور لعيادتك حتى خطوته الأولى داخلها.</p>
+    </div>
+    <div class="journey">
+      <div class="j-step"><span class="s-ico"><svg class="ico"><use href="#i-ads"/></svg></span><h3>إعلان يلفت الانتباه</h3><p>حملات مدفوعة تصل إلى الجمهور المناسب في الوقت المناسب على المنصات التي يستخدمها.</p></div>
+      <div class="j-step"><span class="s-ico"><svg class="ico"><use href="#i-user"/></svg></span><h3>عميل محتمل مهتم</h3><p>يراسلك أو يترك بياناته، فتصلك قائمة بأشخاص أبدوا اهتمامًا حقيقيًا بزراعة الشعر.</p></div>
+      <div class="j-step"><span class="s-ico"><svg class="ico"><use href="#i-bag"/></svg></span><h3>عميل فعلي</h3><p>نتابع المهتم ونجيب عن أسئلته بسرعة ونقدم له ما يقنعه بحجز استشارته.</p></div>
+      <div class="j-step"><span class="s-ico"><svg class="ico"><use href="#i-pin"/></svg></span><h3>زائر عند باب العيادة</h3><p>نوجّهه إلى عيادتك بالموقع والعروض والمواعيد، ليتحول القرار الرقمي إلى زيارة فعلية.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" aria-labelledby="about-h">
+  <div class="wrap about-grid">
+    <div class="about-text">
+      <p class="eyebrow">من نحن</p>
+      <h2 id="about-h">نحن <span class="grad-text">غرس قروث</span>، شريك نمو لعيادات زراعة الشعر</h2>
+      <p>وكالة تركّز على تخصص واحد فقط، فنفهم جمهوره وقراراته وما يقنعه، ونمنح كل عيادة التركيز والاهتمام الذي لا تجده في وكالة تخدم كل القطاعات.</p>
+      <p>نرافقك خطوة بخطوة، ونقيس نجاحنا بعدد الحجوزات ومردود كل عميل.</p>
+      <div class="niche"><span>تخصصنا الوحيد: عيادات زراعة الشعر</span></div>
+    </div>
+    <ul class="about-points">
+      <li><span class="s-ico"><svg class="ico"><use href="#i-target"/></svg></span><div><h3>تخصص واحد، تركيز كامل</h3><p>لا نشتت جهدنا بين القطاعات، فكل خبرتنا وأدواتنا موجهة لعيادات زراعة الشعر.</p></div></li>
+      <li><span class="s-ico"><svg class="ico"><use href="#i-hand"/></svg></span><div><h3>شراكة طويلة المدى</h3><p>نهتم بنمو عيادتك على المدى البعيد، ونتخذ القرارات معك لا نيابة عنك.</p></div></li>
+      <li><span class="s-ico"><svg class="ico"><use href="#i-kpi"/></svg></span><div><h3>شفافية في الأرقام</h3><p>تعرف مردود الإنفاق وتكلفة الحجز وعدد العملاء المحتملين، ومعها خطوتنا التالية.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<section id="services" class="band" aria-labelledby="svc-h">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">خدماتنا</p>
+      <h2 id="svc-h">كل ما تحتاجه عيادتك لتجلب العملاء وتنمو</h2>
+      <p>خدمات متكاملة تعمل معًا، ولكل واحدة منها نتيجة محددة نقيسها ونراجعها معك.</p>
+    </div>
+    <div class="svc-grid">
+      <article class="svc"><span class="s-ico"><svg class="ico"><use href="#i-ads"/></svg></span><h3>إدارة الإعلانات المدفوعة</h3><p>ندير حملاتك على TikTok وSnapchat وInstagram بميزانية متفق عليها، ونحسّنها يوميًا بحسب الأداء.</p>
+        <ul><li>إعداد الحسابات الإعلانية وأدوات التتبع</li><li>تحديد الجمهور المستهدف واختبار أكثر من إعلان</li><li>توزيع الميزانية على الإعلانات الأفضل أداءً</li></ul>
+        <p class="result"><b>النتيجة:</b> عائد أعلى على كل ريال تنفقه في الإعلان.</p></article>
+      <article class="svc"><span class="s-ico"><svg class="ico"><use href="#i-user"/></svg></span><h3>جلب العملاء المحتملين</h3><p>نصمم الحملات لتصلك بيانات أو رسائل من أشخاص مهتمين فعلًا بزراعة الشعر.</p>
+        <ul><li>حملات رسائل واتساب ونماذج بيانات</li><li>رسائل إعلانية تفرز الجادين من غيرهم</li><li>تنظيم قائمة العملاء المحتملين ومعرفة مصدر كل واحد</li></ul>
+        <p class="result"><b>النتيجة:</b> عملاء محتملون بجودة أعلى وبشكل مستمر.</p></article>
+      <article class="svc"><span class="s-ico"><svg class="ico"><use href="#i-bag"/></svg></span><h3>تحويل المحتملين إلى عملاء</h3><p>لا يكفي أن يهتم العميل، فنساعدك على إقناعه واتخاذ قراره بسرعة.</p>
+        <ul><li>صياغة ردود وسيناريوهات متابعة سريعة</li><li>إعادة استهداف من تفاعل ولم يحجز</li><li>رسائل وعروض تناسب مرحلة قرار كل عميل</li></ul>
+        <p class="result"><b>النتيجة:</b> نسبة أعلى من المحتملين تتحول إلى حجوزات.</p></article>
+      <article class="svc"><span class="s-ico"><svg class="ico"><use href="#i-pin"/></svg></span><h3>توجيه العملاء إلى باب العيادة</h3><p>ننقل القرار من الشاشة إلى الزيارة الفعلية لعيادتك.</p>
+        <ul><li>حملات محلية بحسب الموقع الجغرافي للعيادة</li><li>ربط الإعلان بحجز موعد الاستشارة</li><li>قياس عدد من وصلوا بسبب كل حملة</li></ul>
+        <p class="result"><b>النتيجة:</b> زيارات أكثر وجدول مواعيد أكثر امتلاءً.</p></article>
+      <article class="svc"><span class="s-ico"><svg class="ico"><use href="#i-pen"/></svg></span><h3>أفكار وسكربتات المحتوى</h3><p>قرار زراعة الشعر قرار ثقة، فنزوّدك بأفكار وسكربتات تطمئن العميل وتدفعه للحجز، وتصوّرها عيادتك بفريقها.</p>
+        <ul><li>أفكار فيديوهات قصيرة تشرح الرحلة وتجيب عن الأسئلة الشائعة</li><li>سكربت جاهز لكل فيديو: الافتتاحية والرسالة والدعوة للحجز</li><li>إرشادات تصوير بسيطة تناسب الإعلانات</li></ul>
+        <p class="result"><b>النتيجة:</b> محتوى مصوَّر أقوى يخدم حملاتك ويرفع الحجوزات.</p></article>
+      <article class="svc"><span class="s-ico"><svg class="ico"><use href="#i-chart"/></svg></span><h3>التحليل والتقارير</h3><p>نقيس ما يهم عيادتك فعلًا، ونعرض لك النتائج بوضوح بعيدًا عن المصطلحات المعقدة.</p>
+        <ul><li>قياس ROAS وتكلفة الحجز ومردود العميل الواحد</li><li>تقرير شهري مختصر بما نجح وما عدّلناه</li><li>توصيات واضحة للشهر التالي</li></ul>
+        <p class="result"><b>النتيجة:</b> قرارات مبنية على أرقام واضحة.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="how" aria-labelledby="how-h">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">آلية العمل</p>
+      <h2 id="how-h">نرافقك خطوة بخطوة</h2>
+    </div>
+    <ol class="steps">
+      <li class="step"><h3>نفهم عيادتك</h3><p>نتعرف على خدماتك وجمهورك وحساباتك الحالية والنتائج التي تريد الوصول إليها.</p></li>
+      <li class="step"><h3>نضع الخطة والهدف</h3><p>نحوّل هدفك إلى خطة إعلانات وأفكار محتوى وميزانية نعتمدها معك قبل البدء.</p></li>
+      <li class="step"><h3>ننفذ ونجلب العملاء</h3><p>نطلق الحملات ونتابع الرسائل والعملاء المحتملين ليصلك الجادون منهم.</p></li>
+      <li class="step"><h3>نراجع ونطوّر</h3><p>نراجع الأرقام معك، ونكرر ما ينجح ونحسّن ما لا يحقق الهدف.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="band" id="form" aria-labelledby="f-h">
+  <div class="wrap lead-form-wrap">
+    <div class="head">
+      <p class="eyebrow">احجز مكالمتك</p>
+      <h2 id="f-h">احجز مكالمة زووم، ولنرسم معًا مسار حجوزات عيادتك</h2>
+      <p>نراجع حسابات عيادتك وحملاتك الحالية، ونعرض عليك كيف نجلب عملاء محتملين ونحوّلهم إلى حجوزات. عبّئ بياناتك وستصلنا على واتساب مباشرة لتأكيد الموعد.</p>
+    </div>
+    <form class="form" id="leadForm" novalidate aria-labelledby="f-h">
+      <div class="field"><label for="f-name">الاسم</label><input type="text" id="f-name" autocomplete="name" required><span class="err" id="e-name" aria-live="polite"></span></div>
+      <div class="field"><label for="f-biz">اسم العيادة</label><input type="text" id="f-biz" autocomplete="organization"></div>
+      <div class="field full"><label for="f-contact">رقم الجوال أو البريد الإلكتروني</label><input type="text" id="f-contact" autocomplete="off" required><span class="err" id="e-contact" aria-live="polite"></span></div>
+      <fieldset class="field full"><legend>المنصات الحالية</legend>
+        <div class="checks">
+          <label><input type="checkbox" name="plat" value="Instagram"><span>Instagram</span></label>
+          <label><input type="checkbox" name="plat" value="Snapchat"><span>Snapchat</span></label>
+          <label><input type="checkbox" name="plat" value="TikTok"><span>TikTok</span></label>
+        </div>
+      </fieldset>
+      <div class="field full"><label for="f-goal">ما الذي تريد تحقيقه؟</label>
+        <select id="f-goal"><option>جلب عملاء محتملين جدد للعيادة</option><option>تحويل المهتمين إلى حجوزات</option><option>زيادة حجوزات الاستشارة الشهرية</option><option>خفض تكلفة العميل الواحد</option><option>رفع مردود الحملات الحالية (ROAS)</option></select></div>
+      <div class="field full"><label for="f-time">الوقت المناسب للمكالمة</label><input type="text" id="f-time" placeholder="مثال: غدًا بعد العصر"></div>
+      <div class="field full"><label for="f-msg">ملاحظات إضافية (اختياري)</label><textarea id="f-msg"></textarea></div>
+      <button class="btn btn-primary" type="submit"><svg class="ico"><use href="#i-wa"/></svg>احجز مكالمتي</button>
+      <div class="result-box" id="resultBox" hidden>
+        <b>طلبك جاهز. إن لم يفتح واتساب تلقائيًا، اضغط الزر أو انسخ النص:</b>
+        <textarea id="resultText" readonly aria-label="نص الرسالة"></textarea>
+        <div class="row"><a class="btn btn-primary btn-sm" id="resultWa" href="#" target="_blank" rel="noopener">فتح واتساب وإرسال</a><button class="btn btn-ghost btn-sm" type="button" id="copyForm">نسخ الرسالة</button></div>
+        <span id="copyFormMsg" aria-live="polite" style="font-size:.88rem;color:var(--muted)"></span>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap f-row">
+    <span>© 2026 غرس قروث (Gharas Growth)</span>
+    <span>للتواصل: <b>+974 33899388</b></span>
+  </div>
+</footer>
+
+<div class="wa-dock"><a class="wa" data-wa href="#" target="_blank" rel="noopener" aria-label="تحدث معنا عبر واتساب"><svg class="ico"><use href="#i-wa"/></svg><span>تحدث معنا</span></a></div>
+</div>
+
+<script>
+(function(){
+  var PHONE_WA = "97433899388";
+  var root = document.documentElement;
+  root.lang = "ar"; root.dir = "rtl";
+
+  var waUrl = "https://wa.me/" + PHONE_WA + "?text=" + encodeURIComponent("مرحبًا، أرغب بالاستفسار عن خدماتكم لعيادتي.");
+  document.querySelectorAll("[data-wa]").forEach(function(a){ a.href = waUrl; });
+
+  try{ var saved = localStorage.getItem("gg-theme"); if(saved === "light" || saved === "dark") root.setAttribute("data-theme", saved); }catch(e){}
+  document.getElementById("themeBtn").addEventListener("click", function(){
+    var cur = root.getAttribute("data-theme");
+    if(!cur){ cur = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark"; }
+    var next = cur === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try{ localStorage.setItem("gg-theme", next); }catch(e){}
+  });
+
+  var nav = document.getElementById("nav"), mb = document.getElementById("menuBtn");
+  mb.addEventListener("click", function(){ var o = nav.classList.toggle("open"); mb.setAttribute("aria-expanded", o ? "true" : "false"); });
+  nav.addEventListener("click", function(e){ if(e.target.tagName === "A"){ nav.classList.remove("open"); mb.setAttribute("aria-expanded", "false"); } });
+
+  var form = document.getElementById("leadForm"), box = document.getElementById("resultBox");
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    var name = document.getElementById("f-name"), contact = document.getElementById("f-contact");
+    document.getElementById("e-name").textContent = name.value.trim() ? "" : "اكتب اسمك لنعرف بمن نتواصل.";
+    document.getElementById("e-contact").textContent = contact.value.trim() ? "" : "اكتب رقم جوالك أو بريدك الإلكتروني.";
+    if(!name.value.trim() || !contact.value.trim()){ (name.value.trim() ? contact : name).focus(); box.hidden = true; return; }
+    var plats = Array.prototype.map.call(form.querySelectorAll('input[name="plat"]:checked'), function(c){ return c.value; }).join("، ");
+    var text = [
+      "مرحبًا فريق غرس قروث، أرغب بحجز مكالمة زووم لمناقشة تفاصيل أكثر.",
+      "الاسم: " + name.value.trim(),
+      "العيادة: " + (document.getElementById("f-biz").value.trim() || "—"),
+      "للتواصل: " + contact.value.trim(),
+      "المنصات الحالية: " + (plats || "—"),
+      "الهدف: " + document.getElementById("f-goal").value,
+      "الوقت المناسب للمكالمة: " + (document.getElementById("f-time").value.trim() || "—"),
+      "ملاحظات: " + (document.getElementById("f-msg").value.trim() || "—")
+    ].join("\n");
+    var url = "https://wa.me/" + PHONE_WA + "?text=" + encodeURIComponent(text);
+    document.getElementById("resultText").value = text;
+    document.getElementById("resultWa").href = url;
+    document.getElementById("copyFormMsg").textContent = "";
+    box.hidden = false;
+    try{ window.open(url, "_blank", "noopener"); }catch(err){}
+    box.scrollIntoView({behavior:"smooth", block:"nearest"});
+  });
+  document.getElementById("copyForm").addEventListener("click", function(){
+    var ta = document.getElementById("resultText"), out = document.getElementById("copyFormMsg");
+    function fb(){ ta.focus(); ta.select(); out.textContent = "حدّدنا النص، انسخه من القائمة أو بالاختصار."; }
+    try{ navigator.clipboard.writeText(ta.value).then(function(){ out.textContent = "تم نسخ الرسالة."; }, fb); }
+    catch(err){ fb(); }
+  });
+})();
+</script>
+
+</body></html>
